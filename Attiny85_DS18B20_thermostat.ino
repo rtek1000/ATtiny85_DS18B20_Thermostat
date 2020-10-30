@@ -37,6 +37,8 @@ DallasTemperature sensors(&oneWire);
 
 DeviceAddress tempDeviceAddress; // We'll use this variable to store a found device address
 
+int start_info = 0;
+
 float tempC = 0.0;
 
 int error_cnt = 0;
@@ -94,6 +96,8 @@ void setup(void)
   if (sensors.getResolution(tempDeviceAddress) != TEMPERATURE_PRECISION) {
     sensors.setResolution(tempDeviceAddress, TEMPERATURE_PRECISION);
   }
+
+  tempC_buff2 = temp_max_setpoint;
 }
 
 /*
@@ -122,11 +126,17 @@ void loop(void)
 
     if (info_cycle_cnt == 0) {
       if (LED_info(tempC_buff2) != 0) {
-        info_cycle_cnt = 20;
+        info_cycle_cnt = 30;
 
         phase_cnt = 0;
 
-        tempC_buff2 = tempC_buff;
+        if (start_info == 0) {
+          tempC_buff2 = temp_min_setpoint;
+
+          start_info++;
+        } else {
+          tempC_buff2 = tempC_buff;
+        }
       }
     } else {
       info_cycle_cnt--;
@@ -145,7 +155,7 @@ void loop(void)
     }
 
     tempC_buff = tempC;
-
+    
     error_cnt = 0;
   } else {
     if (error_cnt < 5) {
