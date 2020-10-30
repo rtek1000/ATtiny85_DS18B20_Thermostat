@@ -16,7 +16,14 @@ https://github.com/milesburton/Arduino-Temperature-Control-Library
 Board:
 https://github.com/SpenceKonde/ATTinyCore
 
-(Compiled with Arduino IDE 1.8.13)
+- "After changing the clock source, BOD settings, or whether to save EEPROM on chip erase), you must do "Burn Bootloader" with an ISP programmer"
+
+Compiled with Arduino IDE 1.8.13:
+Settings:
+![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thetmostat/blob/main/IDE%20settings.png?raw=true)
+
+Tested programming method:
+https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoISP
 
 Schematic:
 ![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thetmostat/blob/main/Attiny_DS18B20_schem.png?raw=true)
