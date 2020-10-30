@@ -19,7 +19,7 @@ https://github.com/SpenceKonde/ATTinyCore
 (Compiled with Arduino IDE 1.8.13)
 
 Schematic:
-![alt text](https://raw.githubusercontent.com/rtek1000/Attiny85_DS18B20_thetmostat/main/Attiny_DS18B20_schem.png?raw=true)
+![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thetmostat/blob/main/Attiny_DS18B20_schem.png?raw=true)
 
 License
 This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version.
