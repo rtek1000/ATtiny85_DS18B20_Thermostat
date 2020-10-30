@@ -23,7 +23,9 @@ Settings:
 ![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thetmostat/blob/main/IDE%20settings.png?raw=true)
 
 Tested programming method:
-https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoISP
+- Arduino as ISP: https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoISP
+
+- USBasp - USB programmer for Atmel AVR controllers: https://www.fischl.de/usbasp/
 
 Schematic:
 ![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thetmostat/blob/main/Attiny_DS18B20_schem.png?raw=true)
