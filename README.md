@@ -27,7 +27,7 @@ Tested programming method:
 
 - USBasp - USB programmer for Atmel AVR controllers: https://www.fischl.de/usbasp/
 
-Schematic:
+Schematic for Attiny85 DS18B20 thetmostat:
 ![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thetmostat/blob/main/Attiny_DS18B20_schem.png?raw=true)
 
 License
