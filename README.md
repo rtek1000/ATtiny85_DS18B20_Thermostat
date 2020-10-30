@@ -1,4 +1,4 @@
-# Attiny85 DS18B20 thetmostat
+# Attiny85 DS18B20 Thetmostat
 Thermostat with DS18B20 temperature sensor and Attiny85 microcontroller.
 - Watchdog activated, 2s
 - Average calculation between readings, configurable
