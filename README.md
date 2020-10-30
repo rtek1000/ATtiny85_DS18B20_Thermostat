@@ -30,7 +30,9 @@ https://github.com/SpenceKonde/ATTinyCore
 
 - "After changing the clock source, BOD settings, or whether to save EEPROM on chip erase), you must do "Burn Bootloader" with an ISP programmer"
 
-- When the chip is blank, you must do "Burn Bootloader" as well.
+- When the chip is blank or the chip has a pre-installed Bootloader, you must do "Burn Bootloader" as well.
+
+- Bootloader is not used for this code, but it is necessary to burn the bootloader to reconfigure the fuses.
 
 ![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/Burn%20Bootloader.png?raw=true)
 
