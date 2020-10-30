@@ -39,7 +39,7 @@ https://github.com/SpenceKonde/ATTinyCore
 
 Compiled with Arduino IDE 1.8.13:
 Settings:
-![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thetmostat/blob/main/IDE%20settings.png?raw=true)
+![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/IDE%20settings.png?raw=true)
 
 
 Tested programming method:
@@ -47,10 +47,10 @@ Tested programming method:
 
 - USBasp - USB programmer for Atmel AVR controllers: https://www.fischl.de/usbasp/
 
-![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thetmostat/blob/main/Upload_Prog.png?raw=true)
+![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/Upload_Prog.png?raw=true)
 
-Schematic for Attiny85 DS18B20 thetmostat:
-![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thetmostat/blob/main/Attiny_DS18B20_schem.png?raw=true)
+Schematic for Attiny85 DS18B20 thermostat:
+![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/Attiny_DS18B20_schem.png?raw=true)
 
 
 License
