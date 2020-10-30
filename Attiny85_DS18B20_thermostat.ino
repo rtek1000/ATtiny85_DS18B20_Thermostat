@@ -22,7 +22,7 @@
 #define LED_INFO_OUT 0
 #define LED_TH_OUT 1
 
-#define temp_max_setpoint 100.0
+#define temp_max_setpoint 115.0
 #define temp_min_setpoint 70.0
 
 #define TEMPERATURE_PRECISION 9 // Lower resolution
