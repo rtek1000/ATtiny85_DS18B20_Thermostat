@@ -1,3 +1,5 @@
+// Source: https://github.com/rtek1000/Attiny85_DS18B20_thermostat
+
 // Attiny85 pinout - Prog. ref num. - Prog. ref. name:
 // 1 - RESET -
 // 2 - 3/A3 - ONE_WIRE_PRW
