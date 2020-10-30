@@ -6,11 +6,16 @@ Temperature value display by flashing LED:
 - Digit value zero has an average duration, digit values between 1 and 9 are displayed with short pulses.
 - Negative sign is displayed with long time.
 
+
+Dependencies:
+
 Library:
 https://github.com/milesburton/Arduino-Temperature-Control-Library
 
 Board:
 https://github.com/SpenceKonde/ATTinyCore
+
+(Compiled with Arduino IDE 1.8.13)
 
 License
 This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version.
