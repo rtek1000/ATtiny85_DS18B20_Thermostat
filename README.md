@@ -1,5 +1,10 @@
 # Attiny85_DS18B20_thetmostat
-Thermostat with DS18B20 temperature sensor and Attiny85 microcontroller. Temperature value display by flashing LED.
+Thermostat with DS18B20 temperature sensor and Attiny85 microcontroller.
+
+Temperature value display by flashing LED:
+- Zero value on the left is ignored, is not displayed.
+- Digit value zero has an average duration, digit values between 1 and 9 are displayed with short pulses.
+- Negative sign is displayed with long time.
 
 Library:
 https://github.com/milesburton/Arduino-Temperature-Control-Library
