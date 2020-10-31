@@ -1,7 +1,7 @@
 # Attiny85 DS18B20 Thermostat
 Thermostat with DS18B20 temperature sensor and Attiny85 microcontroller.
 - Watchdog activated, 2s.
-- Average calculation between readings, configurable.
+- Average calculation between readings.
 - Displaying the temperature value does not block the temperature reading.
 - In case of communication failure with the sensor, an attempt is made to reestablish the communication.
 - Configurable hysteresis:
