@@ -36,13 +36,13 @@ Notes:
 
 Arduino IDE - Burn Bootloader:
 
-![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/Burn%20Bootloader.png?raw=true)
+![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/Settings/Burn%20Bootloader.png?raw=true)
 
 
 Compiled with Arduino IDE 1.8.13:
 Settings:
 
-![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/IDE%20settings.png?raw=true)
+![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/Settings/IDE%20settings.png?raw=true)
 
 
 Tested programming method:
@@ -52,7 +52,7 @@ Tested programming method:
 
 Sketch upload via programmer:
 
-![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/Upload_Prog.png?raw=true)
+![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/Settings/Upload_Prog.png?raw=true)
 
 Schematic for Attiny85 DS18B20 thermostat:
 
