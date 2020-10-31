@@ -57,6 +57,8 @@ int temp1 = 0;
 
 bool invert = false;
 
+bool is_negative = false;
+
 unsigned int phase_cnt = 0;
 unsigned int phase_cnt2 = 0;
 
@@ -206,8 +208,6 @@ void loop(void)
 }
 
 int LED_info(int temp) {
-  bool is_negative = false;
-
   if (phase_cnt == 0) {
     if (temp < 0) {
       temp *= -1;
