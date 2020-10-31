@@ -1,5 +1,5 @@
-# Attiny85 DS18B20 Thermostat
-###### Thermostat with DS18B20 temperature sensor and Attiny85 microcontroller:
+# ATtiny85 DS18B20 Thermostat
+###### Thermostat with DS18B20 temperature sensor and ATtiny85 microcontroller:
 - Watchdog activated, 2s.
 - Average calculation between readings.
 - Displaying the temperature value does not block the temperature reading.
@@ -42,11 +42,11 @@ Arduino IDE - Burn Bootloader:
 
 (Bootloader is not used for this code, but it is necessary to burn the bootloader to reconfigure the fuses)
 
-![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/Settings/Burn%20Bootloader.png?raw=true)
+![alt text](https://github.com/rtek1000/ATtiny85_DS18B20_thermostat/blob/main/Settings/Burn%20Bootloader.png?raw=true)
 
 IDE settings for compilation and upload:
 
-![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/Settings/IDE%20settings.png?raw=true)
+![alt text](https://github.com/rtek1000/ATtiny85_DS18B20_thermostat/blob/main/Settings/IDE%20settings.png?raw=true)
 
 Tested programming method:
 - Arduino as ISP: https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoISP
@@ -55,11 +55,11 @@ Tested programming method:
 
 Sketch upload via programmer:
 
-![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/Settings/Upload_Prog.png?raw=true)
+![alt text](https://github.com/rtek1000/ATtiny85_DS18B20_thermostat/blob/main/Settings/Upload_Prog.png?raw=true)
 
-Schematic for Attiny85 DS18B20 thermostat:
+Schematic for ATtiny85 DS18B20 Thermostat:
 
-![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/Hardware/Attiny_DS18B20_schematic.png?raw=true)
+![alt text](https://github.com/rtek1000/ATtiny85_DS18B20_thermostat/blob/main/Hardware/Attiny_DS18B20_schematic.png?raw=true)
 
 
 #### Software License:
