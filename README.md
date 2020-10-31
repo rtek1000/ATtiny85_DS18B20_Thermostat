@@ -56,7 +56,7 @@ Sketch upload via programmer:
 
 Schematic for Attiny85 DS18B20 thermostat:
 
-![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/Attiny_DS18B20_schematic.png?raw=true)
+![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/Hardware/Attiny_DS18B20_schematic.png?raw=true)
 
 
 Software License:
