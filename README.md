@@ -1,13 +1,13 @@
 # Attiny85 DS18B20 Thermostat
 Thermostat with DS18B20 temperature sensor and Attiny85 microcontroller.
 - Watchdog activated, 2s.
-- Averaging for readings.
+- Average calculation between readings.
 - Displaying the temperature value does not block the temperature reading.
-- In case of communication failure with the sensor, an attempt is made to reestablish the communication.
+- In case of communication failure with the sensor, attempts are made to reestablish the communication.
 - Configurable hysteresis:
-- - Output is activated when the temperature value is above the pre-established value in the variable temp_max_setpoint.
-- - Output is deactivated when the temperature value is below the pre-established value in the variable temp_min_setpoint.
-- Alternating audible warning output for when the output is activated (for active Buzzer/Beeper).
+- - Output is activated when the temperature value is above the pre-established value (variable "temp_max_setpoint").
+- - Output is deactivated when the temperature value is below the pre-established value (variable "temp_min_setpoint").
+- Alternating warning output for when the output is activated (for active Buzzer/Beeper).
 - In the event of a communication failure, after 5 attempts to reestablish the communication, the output is automatically activated.
 - Output update time is dependent on the number of readings for average readings and the reading precision:
 - - For 9-bit precision and 5 average readings, the time is approximately 0.5s.
