@@ -126,7 +126,7 @@ void loop(void)
 
     if (info_cycle_cnt == 0) {
       if (LED_info(tempC_buff2) != 0) {
-        info_cycle_cnt = 30;
+        info_cycle_cnt = 50;
 
         phase_cnt = 0;
 
@@ -155,7 +155,7 @@ void loop(void)
     }
 
     tempC_buff = tempC;
-    
+
     error_cnt = 0;
   } else {
     if (error_cnt < 5) {
@@ -229,40 +229,44 @@ int LED_info(int temp) {
       } else if (temp100 == 0) {
         phase_cnt = 4;
       } else {
-        phase_cnt++;
+        phase_cnt = 2;
       }
     } else {
       phase_cnt++;
     }
   } else if (phase_cnt == 1) {
-    if (phase_cnt2 == 0) {
-      if (invert == true) {
-        analogWrite(LED_INFO_OUT, 128);
-      } else {
-        analogWrite(LED_INFO_OUT, 64);
-      }
-    } if (phase_cnt2 == 8) {
-      if (invert == true) {
-        analogWrite(LED_INFO_OUT, 16);
-      } else {
-        digitalWrite(LED_INFO_OUT, LOW);
-      }
-    } if (phase_cnt2 == 11) {
-      wdt_reset();
+    if (is_negative == true) {
+      if (phase_cnt2 == 0) {
+        if (invert == true) {
+          analogWrite(LED_INFO_OUT, 128);
+        } else {
+          analogWrite(LED_INFO_OUT, 64);
+        }
+      } if (phase_cnt2 == 8) {
+        if (invert == true) {
+          analogWrite(LED_INFO_OUT, 16);
+        } else {
+          digitalWrite(LED_INFO_OUT, LOW);
+        }
+      } if (phase_cnt2 == 11) {
+        wdt_reset();
 
-      if ((temp100 == 0) && (temp10 == 0)) {
-        phase_cnt = 6;
-      } else if (temp100 == 0) {
-        phase_cnt = 4;
-      } else {
-        phase_cnt++;
+        if ((temp100 == 0) && (temp10 == 0)) {
+          phase_cnt = 6;
+        } else if (temp100 == 0) {
+          phase_cnt = 4;
+        } else {
+          phase_cnt++;
+        }
       }
-    }
 
-    if (phase_cnt2 < 11) {
-      phase_cnt2++;
+      if (phase_cnt2 < 11) {
+        phase_cnt2++;
+      } else {
+        phase_cnt2 = 0;
+      }
     } else {
-      phase_cnt2 = 0;
+      phase_cnt++;
     }
   } else if (phase_cnt == 2) {
     if (temp100 > 0) {
