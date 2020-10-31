@@ -29,7 +29,7 @@ Board:
 https://github.com/SpenceKonde/ATTinyCore
 
 Notes:
-- "After changing the clock source, BOD settings, or whether to save EEPROM on chip erase), you must do "Burn Bootloader" with an ISP programmer"
+- "After changing the clock source, BOD settings, or whether to save EEPROM on chip erase), you must do "Burn Bootloader" with an ISP programmer" (From: ATTinyCore)
 
 - When the chip is blank or the chip has a pre-installed Bootloader, you must do "Burn Bootloader" as well.
 
