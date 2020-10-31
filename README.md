@@ -35,15 +35,16 @@ https://github.com/SpenceKonde/ATTinyCore
 
 ###### Arduino IDE:
 https://www.arduino.cc/en/software/
+- Note: Compiled with Arduino IDE 1.8.13
 
 #### Settings:
 Arduino IDE - Burn Bootloader:
+
 (Bootloader is not used for this code, but it is necessary to burn the bootloader to reconfigure the fuses)
 
 ![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/Settings/Burn%20Bootloader.png?raw=true)
 
-
-Note: Compiled with Arduino IDE 1.8.13:
+IDE settings for compilation and upload:
 
 ![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/Settings/IDE%20settings.png?raw=true)
 
