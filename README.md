@@ -35,11 +35,13 @@ Notes:
 - - (Bootloader is not used for this code, but it is necessary to burn the bootloader to reconfigure the fuses)
 
 Arduino IDE - Burn Bootloader:
+
 ![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/Burn%20Bootloader.png?raw=true)
 
 
 Compiled with Arduino IDE 1.8.13:
 Settings:
+
 ![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/IDE%20settings.png?raw=true)
 
 
@@ -49,9 +51,11 @@ Tested programming method:
 - USBasp - USB programmer for Atmel AVR controllers: https://www.fischl.de/usbasp/
 
 Sketch upload via programmer:
+
 ![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/Upload_Prog.png?raw=true)
 
 Schematic for Attiny85 DS18B20 thermostat:
+
 ![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/Attiny_DS18B20_schematic.png?raw=true)
 
 
