@@ -34,6 +34,7 @@ Notes:
 - When the chip is blank or the chip has a pre-installed Bootloader, you must do "Burn Bootloader" as well.
 - - (Bootloader is not used for this code, but it is necessary to burn the bootloader to reconfigure the fuses)
 
+Arduino IDE - Burn Bootloader:
 ![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/Burn%20Bootloader.png?raw=true)
 
 
@@ -47,6 +48,7 @@ Tested programming method:
 
 - USBasp - USB programmer for Atmel AVR controllers: https://www.fischl.de/usbasp/
 
+Sketch upload via programmer:
 ![alt text](https://github.com/rtek1000/Attiny85_DS18B20_thermostat/blob/main/Upload_Prog.png?raw=true)
 
 Schematic for Attiny85 DS18B20 thermostat:
