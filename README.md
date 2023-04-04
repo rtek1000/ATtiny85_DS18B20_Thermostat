@@ -50,7 +50,7 @@ Arduino IDE - Burn Bootloader:
 
 IDE settings for compilation and upload:
 
-![alt text](https://github.com/rtek1000/ATtiny85_DS18B20_thermostat/blob/main/Settings/IDE%20settings.png?raw=true)
+![image](https://raw.githubusercontent.com/rtek1000/ATtiny85_DS18B20_thermostat/main/Settings/IDE%20settings.png)
 
 Tested programming method:
 - Arduino as ISP: https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoISP
@@ -59,11 +59,11 @@ Tested programming method:
 
 Sketch upload via programmer:
 
-![alt text](https://github.com/rtek1000/ATtiny85_DS18B20_thermostat/blob/main/Settings/Upload_Prog.png?raw=true)
+![image](https://raw.githubusercontent.com/rtek1000/ATtiny85_DS18B20_thermostat/main/Settings/Upload_Prog.png)
 
 Schematic for ATtiny85 DS18B20 Thermostat:
 
-![alt text](https://github.com/rtek1000/ATtiny85_DS18B20_thermostat/blob/main/Hardware/Attiny_DS18B20_schematic.png?raw=true)
+![image](https://raw.githubusercontent.com/rtek1000/ATtiny85_DS18B20_thermostat/main/Hardware/Attiny_DS18B20_schematic_v2.png)
 
 
 ### avrdude error: 
