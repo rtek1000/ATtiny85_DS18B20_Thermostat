@@ -46,7 +46,7 @@ Arduino IDE - Burn Bootloader:
 
 (Bootloader is not used for this code, but it is necessary to burn the bootloader to reconfigure the fuses)
 
-![alt text](https://github.com/rtek1000/ATtiny85_DS18B20_thermostat/blob/main/Settings/Burn%20Bootloader.png?raw=true)
+![image](https://raw.githubusercontent.com/rtek1000/ATtiny85_DS18B20_thermostat/main/Settings/Burn%20Bootloader.png)
 
 IDE settings for compilation and upload:
 
