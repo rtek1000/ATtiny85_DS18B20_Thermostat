@@ -62,6 +62,30 @@ Schematic for ATtiny85 DS18B20 Thermostat:
 ![alt text](https://github.com/rtek1000/ATtiny85_DS18B20_thermostat/blob/main/Hardware/Attiny_DS18B20_schematic.png?raw=true)
 
 
+### avrdude error: 
+- avrdude: error: could not find USB device with vid=0x16c0 pid=0x5dc vendor=’www.fischl.de’ product=’USBasp’ 
+
+On some system. A tty device is created when USBasp is connected. In my case /dev/ttyS0. However when Port is set to /dev/ttyS0 in Arduino IDE. You will see the following errors:
+
+>avrdude: Warning: cannot open USB device: Permission denied
+>avrdude: error: could not find USB device with vid=0x16c0 pid=0x5dc vendor=’www.fischl.de’ product=’USBasp’
+
+- To Fix Permission denied error. As root edit “/etc/udev/rules.d/99-USBasp.rules” with the following:
+
+SUBSYSTEM=="usb", ATTRS{idVendor}=="16c0", ATTRS{idProduct}=="05dc", GROUP="dialout"
+
+- Add self to dialout user group.
+
+sudo usermod -aG dialout $USER
+
+- Then logoff and login again.
+- - Unplug USBasp device then restart udev.
+
+sudo /etc/init.d/udev restart
+
+- Source: Kevin's Blog
+
+
 #### Software License:
 This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version.
 
