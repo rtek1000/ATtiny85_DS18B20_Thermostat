@@ -19,6 +19,8 @@
 - Negative sign is displayed with long time.
 - The duration of each pulse is dependent on the reading time of the sensor, if the reading precision is changed to more bits, the time increases.
 
+###### Note:
+- In version 2, the terminals of the 2 sensors are connected in parallel.
 
 #### Dependencies:
 
