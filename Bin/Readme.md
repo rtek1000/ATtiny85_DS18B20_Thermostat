@@ -20,7 +20,7 @@ For 2 sensors:
 
 `$ sudo avrdude -c usbasp -p t85`
 
-- If it's necessary, burn it.
+- If it's necessary, burn it. (Expected values are: E:FF, H:D7, L:F1)
 
 - - Avoid burning unnecessarily, if programmed wrong it can block the microcontroller.
 
