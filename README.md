@@ -85,7 +85,7 @@ On some system. A tty device is created when USBasp is connected. In my case /de
 `sudo usermod -aG dialout $USER`
 
 - Then logoff and login again.
-- - Unplug USBasp device then restart udev.
+- - ---> Unplug USBasp device <--- Then restart udev.
 
 `sudo /etc/init.d/udev restart`
 
