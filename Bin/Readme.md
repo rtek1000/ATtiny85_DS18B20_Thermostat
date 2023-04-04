@@ -16,7 +16,7 @@ For 2 sensors:
 
 - Reading fuses:
 
-$ sudo avrdude -c usbasp -p t85
+`$ sudo avrdude -c usbasp -p t85`
 
 - If it's necessary, burn it.
 
@@ -28,7 +28,7 @@ $ sudo avrdude -c usbasp -p t85
 
 - Burning fuses (No Bootloader; 16MHz PLL; Internal clock):
 
-$ sudo avrdude -p t85 -c usbasp -U efuse:w:0xFF:m -U hfuse:w:0xD7:m -U lfuse:w:0xF1:m
+`$ sudo avrdude -p t85 -c usbasp -U efuse:w:0xFF:m -U hfuse:w:0xD7:m -U lfuse:w:0xF1:m`
 
 
 ### Atiny85 fuses - Command responses:
