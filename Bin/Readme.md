@@ -33,7 +33,7 @@ For 2 sensors:
 
 ### Atiny85 fuses - Command responses:
 
-$ sudo avrdude -c usbasp -p t85
+`$ sudo avrdude -c usbasp -p t85`
 
 >avrdude: AVR device initialized and ready to accept instructions
 >
@@ -45,7 +45,7 @@ $ sudo avrdude -c usbasp -p t85
 >
 >avrdude done.  Thank you.
 
-$ sudo avrdude -p t85 -c usbasp -U efuse:w:0xFF:m -U hfuse:w:0xD7:m -U lfuse:w:0xF1:m
+`$ sudo avrdude -p t85 -c usbasp -U efuse:w:0xFF:m -U hfuse:w:0xD7:m -U lfuse:w:0xF1:m`
 
 > avrdude: AVR device initialized and ready to accept instructions
 > 
