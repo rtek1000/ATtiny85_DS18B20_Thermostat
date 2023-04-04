@@ -84,7 +84,7 @@ On some system. A tty device is created when USBasp is connected. In my case /de
 
 >sudo /etc/init.d/udev restart
 
-- Source: Kevin's Blog
+- Source: [Geting USBasp v2.0 to work with Linuxmint](https://klamfx.wordpress.com/tag/avrdude-error-could-not-find-usb-device-with-vid0x16c0-pid0x5dc-vendorwww-fischl-de-productusbasp/)
 
 
 #### Software License:
