@@ -22,6 +22,7 @@
 ###### Note:
 - In version 2, the terminals of the 2 sensors are connected in parallel.
 - R5 has been modified from 4.7k to 2.2k to slightly increase the brightness of the green color LED.
+- Pay attention to the quality of the 1nF capacitor.
 
 #### Dependencies:
 
