@@ -35,6 +35,7 @@ $ sudo avrdude -c usbasp -p t85
 - - If you enable external clock, you must supply external clock.
 
 - Burning fuses (No Bootloader; 16MHz PLL; Internal clock):
+
 $ sudo avrdude -p t85 -c usbasp -U efuse:w:0xFF:m -U hfuse:w:0xD7:m -U lfuse:w:0xF1:m
 
 > avrdude: AVR device initialized and ready to accept instructions
