@@ -76,7 +76,8 @@ On some system. A tty device is created when USBasp is connected. In my case /de
 
 - To Fix Permission denied error. As root edit “/etc/udev/rules.d/99-USBasp.rules” with the following:
 
->sudo nano /etc/udev/rules.d/99-USBasp.rules
+`$ sudo nano /etc/udev/rules.d/99-USBasp.rules`
+
 >SUBSYSTEM=="usb", ATTRS{idVendor}=="16c0", ATTRS{idProduct}=="05dc", GROUP="dialout"
 
 - Add self to dialout user group.
