@@ -61,7 +61,7 @@ Sketch upload via programmer:
 
 ![image](https://raw.githubusercontent.com/rtek1000/ATtiny85_DS18B20_thermostat/main/Settings/Upload_Prog.png)
 
-Schematic for ATtiny85 DS18B20 Thermostat:
+Schematic for ATtiny85 DS18B20 Thermostat (For version 1, only 1 sensor):
 
 ![image](https://raw.githubusercontent.com/rtek1000/ATtiny85_DS18B20_thermostat/main/Hardware/Attiny_DS18B20_schematic_v2.png)
 
