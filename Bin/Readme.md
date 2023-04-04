@@ -12,7 +12,9 @@ For 2 sensors:
 
 ### Atiny85 fuses:
 
-- Install AvrDude on [Ubuntu](https://medium.com/@ppatil/avr-programing-using-avrdude-in-ubuntu-93734c26ad19) (Tested on Xubuntu 22-04)
+- For manual programming without the Arduino IDE.
+
+- - Install AvrDude on [Ubuntu](https://medium.com/@ppatil/avr-programing-using-avrdude-in-ubuntu-93734c26ad19) (Tested on Xubuntu 22-04)
 
 - Reading fuses:
 
