@@ -18,16 +18,6 @@ For 2 sensors:
 
 $ sudo avrdude -c usbasp -p t85
 
->avrdude: AVR device initialized and ready to accept instructions
->
->Reading | ################################################## | 100% 0.00s
->
->avrdude: Device signature = 0x1e930b (probably t85)
->
->avrdude: safemode: Fuses OK (E:FF, H:D7, L:F1)
->
->avrdude done.  Thank you.
-
 - If it's necessary, burn it.
 
 - - Avoid burning unnecessarily, if programmed wrong it can block the microcontroller.
