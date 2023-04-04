@@ -96,4 +96,4 @@ $ sudo avrdude -p t85 -c usbasp -U efuse:w:0xFF:m -U hfuse:w:0xD7:m -U lfuse:w:0
 > avrdude done.  Thank you.
 
 
-
+Ref.: [Setting and reading AtTiny85 fuses](https://dntruong.wordpress.com/2015/07/08/setting-and-reading-attiny85-fuses/)
