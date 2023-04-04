@@ -40,6 +40,23 @@ $ sudo avrdude -c usbasp -p t85
 
 $ sudo avrdude -p t85 -c usbasp -U efuse:w:0xFF:m -U hfuse:w:0xD7:m -U lfuse:w:0xF1:m
 
+
+### Atiny85 fuses - Command responses:
+
+$ sudo avrdude -c usbasp -p t85
+
+>avrdude: AVR device initialized and ready to accept instructions
+>
+>Reading | ################################################## | 100% 0.00s
+>
+>avrdude: Device signature = 0x1e930b (probably t85)
+>
+>avrdude: safemode: Fuses OK (E:FF, H:D7, L:F1)
+>
+>avrdude done.  Thank you.
+
+$ sudo avrdude -p t85 -c usbasp -U efuse:w:0xFF:m -U hfuse:w:0xD7:m -U lfuse:w:0xF1:m
+
 > avrdude: AVR device initialized and ready to accept instructions
 > 
 > Reading | ################################################## | 100% 0.00s
