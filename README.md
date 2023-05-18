@@ -37,6 +37,9 @@ https://github.com/SpenceKonde/ATTinyCore
 
 - When the chip is blank or the chip has a pre-installed Bootloader, you must do "Burn Bootloader" as well.
 
+- Due to the fake DS18B20 issue, the test sketch was created to help identify bad sensors: [Time_Checker (9bits)](https://github.com/rtek1000/ATtiny85_DS18B20_Thermostat/blob/main/Software/Attiny85_DS18B20_9bits_Time_Checker.ino)
+- - There are sensors being sold that do not even come close to the datasheet specifications:
+
 ###### Arduino IDE:
 https://www.arduino.cc/en/software/
 - Note: Compiled with Arduino IDE 1.8.13
