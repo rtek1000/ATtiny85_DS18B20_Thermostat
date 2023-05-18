@@ -43,6 +43,8 @@ https://github.com/SpenceKonde/ATTinyCore
 
 - [(Analog.com) Guidelines for Reliable Long Line 1-Wire Networks](https://www.analog.com/en/technical-articles/guidelines-for-reliable-long-line-1wire-networks.html)
 
+- DS18B20 Calibration?: see here: [DS18B20 1-Wire calibration with Arduino: Finally nailed it!](https://thecavepearlproject.org/2016/03/05/ds18b20-calibration-we-finally-nailed-it/).
+
 ###### Arduino IDE:
 https://www.arduino.cc/en/software/
 - Note: Compiled with Arduino IDE 1.8.13
