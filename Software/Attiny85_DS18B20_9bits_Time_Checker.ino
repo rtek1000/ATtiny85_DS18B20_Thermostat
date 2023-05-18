@@ -1,6 +1,7 @@
 /*
    ATtiny85 DS18B20 9 bit time checker
    - It only shows the times in milliseconds of each sensor, to help the developer to find fake sensors.
+   - Automatically detects multiple sensors connected in parallel.
 
    References:
    https://github.com/milesburton/Arduino-Temperature-Control-Library/blob/master/examples/Timing/Timing.ino
