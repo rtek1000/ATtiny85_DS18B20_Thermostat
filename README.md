@@ -41,6 +41,8 @@ https://github.com/SpenceKonde/ATTinyCore
 - - There are sensors being sold that do not even come close to the datasheet specifications:
 ![img](https://raw.githubusercontent.com/rtek1000/ATtiny85_DS18B20_Thermostat/main/Hardware/DS18B20%202034C4.png)
 
+- [(Analog.com) Guidelines for Reliable Long Line 1-Wire Networks](https://www.analog.com/en/technical-articles/guidelines-for-reliable-long-line-1wire-networks.html)
+
 ###### Arduino IDE:
 https://www.arduino.cc/en/software/
 - Note: Compiled with Arduino IDE 1.8.13
